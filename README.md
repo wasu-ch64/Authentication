@@ -1,2 +1,16 @@
 # Authentication
 Practice project for React authentication
+
+1. clone project
+2. npm install (frontend and backend)
+3. create .env (frontend and backend)
+
+env front
+VITE_API_URL= { host backend }
+VITE_NODE_ENV= { develop or production }
+
+env back
+NODE_ENV= { develop or production }
+PORT= { port }
+CORS_ALLOWED_ORIGINS= { host frontend }
+JWT_SECRET= { SERCRET_KEY }
